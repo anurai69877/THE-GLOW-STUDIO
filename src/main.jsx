@@ -9,6 +9,7 @@ import Header from './Components/Common/Header'
 import Footer from './Components/Common/Footer'
 
 import HomePage from './Components/Pages/HomePages'
+import About from './Components/Pages/About'
 
 
 
@@ -21,7 +22,8 @@ createRoot(document.getElementById('root')).render(
 
       <Routes>
         <Route path="/" element={<HomePage/>} />
-        
+                <Route path="/about" element={<About/>} />
+
 
 
 
